@@ -1,16 +1,19 @@
 {
     "header": {
         "welcome_back": "Welcome back, {name}",
+        "sign_out": "Sign Out",
         "skip_to_main": "Skip to main content"
     },
     "footer": {
         "title": "Footer Start",
-        "brands": "Brands",
-        "navigate": "Information",
+        "brands": "Popular Brands",
+        "navigate": "Navigate",
         "info": "Info",
         "categories": "Categories",
         "call_us": "Call us at {phone_number}",
-        "powered_by": "Powered by"
+        "powered_by": "Powered by",
+        "company": "Our Company",
+        "help": "Help"
     },
     "home": {
         "heading": "Home"
@@ -125,7 +128,7 @@
             "preview": "Preview"
         },
         "added_to_cart": {
-            "what_next": "Ok, {num_products, plural, one {1 item was} other {# items were}} added to your cart. What's next?",
+            "what_next": "{num_products, plural, one {1 item was} other {# items were}} added to your cart.",
             "your_cart_contains": "Your cart now contains {num_products, plural, one {1 item} other {# items}}",
             "proceed_to_checkout": "Proceed to checkout",
             "order_subtotal": "Subtotal",
@@ -178,7 +181,7 @@
             "page_of": "Page {current} of {total}"
         },
         "prices_are_in": "Prices are in {CODE}",
-        "previous": "Prev",
+        "previous": "Previous",
         "next": "Next",
         "sorter": {
             "relevance": "Relevance",
@@ -217,7 +220,7 @@
         "remove": "Remove",
         "no_remove": "At least 2 products are needed to make a valid comparison.",
         "add_to_cart": "Add to cart",
-        "no_compare": "You must select at least two products to compare"
+        "no_compare": "Please select at least two products to compare"
     },
     "category": {
         "label": "Categories",
@@ -702,7 +705,7 @@
         "purchase_units": "{quantity, plural, =0{0 units} one {# unit} other {# units}}",
         "max_purchase_quantity": "Maximum Purchase:",
         "min_purchase_quantity": "Minimum Purchase:",
-        "related_products": "Related Products",
+        "related_products": "Accessory Products",
         "top": "Most Popular Products",
         "similar_by_views": "Customers Also Viewed",
         "featured": "Featured Products",
@@ -748,6 +751,7 @@
         "none": "None",
         "sku": "SKU:",
         "upc": "UPC:",
+        "mpn": "MPN:",
         "condition": "Condition:",
         "availability": "Availability:",
         "swatch_option_announcement": "Selected {swatch_name} is",
@@ -825,7 +829,7 @@
         "unsubscribed_message": "You will no longer receive marketing emails from <b>{store_name}</b>"
     },
     "social": {
-        "connect": "Follow Us"
+        "connect": "Connect with Us"
     },
     "errors": {
         "shipping_quote_failure": "There was a problem retrieving your shipping quote",
@@ -835,7 +839,7 @@
         "errorMessage": "There was a problem retrieving your results. Please try again in a few seconds.",
         "quick_search": {
             "input_label": "Search",
-            "input_placeholder": "What are you looking for?"
+            "input_placeholder": "What can we help you find?"
         },
         "results": {
             "form_label": "Search Keyword:",
@@ -876,8 +880,8 @@
         "tabs_accesibility_hint": "Use left and right arrows to navigate between tabs."
     },
     "page_not_found": {
-        "page_heading": "404 Error - Page not found",
-        "message": "Uh oh, looks like the page you are looking for has moved or no longer exists."
+        "page_heading": "404 Error: We're sorry! The page has moved or is no longer available.",
+        "message": "Please try searching again or browse our main categories below."
     },
     "server_error": {
         "page_heading": "Something Went Wrong...",
