@@ -547,24 +547,9 @@
         "id": "body-font",
         "options": [
           {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
-          },
-          {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Helvetica",
-            "label": "Helvetica",
-            "value": "Helvetica"
           }
         ]
       },
@@ -573,14 +558,6 @@
         "label": "Body Text Font Size",
         "id": "fontSize-root",
         "options": [
-          {
-            "value": 12,
-            "label": "12px"
-          },
-          {
-            "value": 13,
-            "label": "13px"
-          },
           {
             "value": 14,
             "label": "14px"
@@ -601,44 +578,14 @@
         "id": "buttons-font",
         "options": [
           {
-            "group": "Barlow",
-            "label": "Barlow",
-            "value": "Google_Barlow_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
             "group": "Roboto",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Roboto",
-            "label": "Roboto Condensed Bold",
-            "value": "Google_Roboto+Condensed_600"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "label": "Roboto Bold",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -648,44 +595,14 @@
         "id": "navPages-font",
         "options": [
           {
-            "group": "Barlow",
-            "label": "Barlow",
-            "value": "Google_Barlow_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
             "group": "Roboto",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Roboto",
-            "label": "Roboto Condensed Bold",
-            "value": "Google_Roboto+Condensed_600"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "label": "Roboto Bold",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -699,44 +616,14 @@
         "id": "headings-font",
         "options": [
           {
-            "group": "Barlow",
-            "label": "Barlow",
-            "value": "Google_Barlow_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
             "group": "Roboto",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Roboto",
-            "label": "Roboto Condensed Bold",
-            "value": "Google_Roboto+Condensed_700"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "label": "Roboto Bold",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -746,44 +633,14 @@
         "id": "page-headings-font",
         "options": [
           {
-            "group": "Barlow",
-            "label": "Barlow",
-            "value": "Google_Barlow_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
             "group": "Roboto",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Roboto",
-            "label": "Roboto Condensed Bold",
-            "value": "Google_Roboto+Condensed_700"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "label": "Roboto Bold",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -797,24 +654,12 @@
             "label": "24px"
           },
           {
-            "value": 26,
-            "label": "26px"
-          },
-          {
             "value": 28,
             "label": "28px"
           },
           {
-            "value": 32,
-            "label": "32px"
-          },
-          {
-            "value": 36,
-            "label": "36px"
-          },
-          {
-            "value": 42,
-            "label": "42px"
+            "value": 30,
+            "label": "30px"
           }
         ]
       },
@@ -824,24 +669,12 @@
         "id": "fontSize-h2",
         "options": [
           {
-            "value": 21,
-            "label": "21px"
+            "value": 22,
+            "label": "22px"
           },
           {
-            "value": 23,
-            "label": "23px"
-          },
-          {
-            "value": 25,
-            "label": "25px"
-          },
-          {
-            "value": 29,
-            "label": "29px"
-          },
-          {
-            "value": 32,
-            "label": "32px"
+            "value": 24,
+            "label": "24px"
           }
         ]
       },
@@ -857,18 +690,6 @@
           {
             "value": 20,
             "label": "20px"
-          },
-          {
-            "value": 21,
-            "label": "21px"
-          },
-          {
-            "value": 26,
-            "label": "26px"
-          },
-          {
-            "value": 30,
-            "label": "30px"
           }
         ]
       },
@@ -878,24 +699,12 @@
         "id": "fontSize-h4",
         "options": [
           {
-            "value": 16,
-            "label": "16px"
-          },
-          {
             "value": 18,
             "label": "18px"
           },
           {
             "value": 20,
             "label": "20px"
-          },
-          {
-            "value": 24,
-            "label": "24px"
-          },
-          {
-            "value": 28,
-            "label": "28px"
           }
         ]
       },
@@ -905,24 +714,12 @@
         "id": "fontSize-h5",
         "options": [
           {
-            "value": 11,
-            "label": "11px"
+            "value": 16,
+            "label": "16px"
           },
           {
-            "value": 13,
-            "label": "13px"
-          },
-          {
-            "value": 15,
-            "label": "15px"
-          },
-          {
-            "value": 19,
-            "label": "19px"
-          },
-          {
-            "value": 23,
-            "label": "23px"
+            "value": 18,
+            "label": "18px"
           }
         ]
       },
@@ -932,24 +729,12 @@
         "id": "fontSize-h6",
         "options": [
           {
-            "value": 9,
-            "label": "9px"
+            "value": 14,
+            "label": "14px"
           },
           {
-            "value": 11,
-            "label": "11px"
-          },
-          {
-            "value": 13,
-            "label": "13px"
-          },
-          {
-            "value": 17,
-            "label": "17px"
-          },
-          {
-            "value": 21,
-            "label": "21px"
+            "value": 16,
+            "label": "16px"
           }
         ]
       },
@@ -963,19 +748,14 @@
         "id": "logo-font",
         "options": [
           {
-            "group": "Oswald",
-            "label": "Oswald",
-            "value": "Google_Oswald_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_400"
           },
           {
-            "group": "Oswald",
-            "label": "Oswald Light",
-            "value": "Google_Oswald_300"
-          },
-          {
-            "group": "Roboto Condensed",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_600"
+            "group": "Roboto",
+            "label": "Roboto Bold",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -1007,106 +787,6 @@
           {
             "value": 24,
             "label": "24px"
-          },
-          {
-            "value": 26,
-            "label": "26px"
-          },
-          {
-            "value": 28,
-            "label": "28px"
-          },
-          {
-            "value": 30,
-            "label": "30px"
-          },
-          {
-            "value": 32,
-            "label": "32px"
-          },
-          {
-            "value": 34,
-            "label": "34px"
-          },
-          {
-            "value": 36,
-            "label": "36px"
-          },
-          {
-            "value": 38,
-            "label": "38px"
-          },
-          {
-            "value": 40,
-            "label": "40px"
-          },
-          {
-            "value": 42,
-            "label": "42px"
-          },
-          {
-            "value": 44,
-            "label": "44px"
-          },
-          {
-            "value": 46,
-            "label": "46px"
-          },
-          {
-            "value": 48,
-            "label": "48px"
-          },
-          {
-            "value": 50,
-            "label": "50px"
-          },
-          {
-            "value": 52,
-            "label": "52px"
-          },
-          {
-            "value": 54,
-            "label": "54px"
-          },
-          {
-            "value": 56,
-            "label": "56px"
-          },
-          {
-            "value": 58,
-            "label": "58px"
-          },
-          {
-            "value": 60,
-            "label": "60px"
-          },
-          {
-            "value": 62,
-            "label": "62px"
-          },
-          {
-            "value": 64,
-            "label": "64px"
-          },
-          {
-            "value": 66,
-            "label": "66px"
-          },
-          {
-            "value": 68,
-            "label": "68px"
-          },
-          {
-            "value": 70,
-            "label": "70px"
-          },
-          {
-            "value": 72,
-            "label": "72px"
-          },
-          {
-            "value": 74,
-            "label": "74px"
           }
         ]
       },
@@ -1138,106 +818,6 @@
           {
             "value": 24,
             "label": "24px"
-          },
-          {
-            "value": 26,
-            "label": "26px"
-          },
-          {
-            "value": 28,
-            "label": "28px"
-          },
-          {
-            "value": 30,
-            "label": "30px"
-          },
-          {
-            "value": 32,
-            "label": "32px"
-          },
-          {
-            "value": 34,
-            "label": "34px"
-          },
-          {
-            "value": 36,
-            "label": "36px"
-          },
-          {
-            "value": 38,
-            "label": "38px"
-          },
-          {
-            "value": 40,
-            "label": "40px"
-          },
-          {
-            "value": 42,
-            "label": "42px"
-          },
-          {
-            "value": 44,
-            "label": "44px"
-          },
-          {
-            "value": 46,
-            "label": "46px"
-          },
-          {
-            "value": 48,
-            "label": "48px"
-          },
-          {
-            "value": 50,
-            "label": "50px"
-          },
-          {
-            "value": 52,
-            "label": "52px"
-          },
-          {
-            "value": 54,
-            "label": "54px"
-          },
-          {
-            "value": 56,
-            "label": "56px"
-          },
-          {
-            "value": 58,
-            "label": "58px"
-          },
-          {
-            "value": 60,
-            "label": "60px"
-          },
-          {
-            "value": 62,
-            "label": "62px"
-          },
-          {
-            "value": 64,
-            "label": "64px"
-          },
-          {
-            "value": 66,
-            "label": "66px"
-          },
-          {
-            "value": 68,
-            "label": "68px"
-          },
-          {
-            "value": 70,
-            "label": "70px"
-          },
-          {
-            "value": 72,
-            "label": "72px"
-          },
-          {
-            "value": 74,
-            "label": "74px"
           }
         ]
       },
@@ -1251,19 +831,9 @@
         "id": "card-title-font",
         "options": [
           {
-            "group": "Oswald",
-            "label": "Oswald",
-            "value": "Google_Oswald_400"
-          },
-          {
-            "group": "Oswald",
-            "label": "Oswald Light",
-            "value": "Google_Oswald_300"
-          },
-          {
-            "group": "Roboto Condensed",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_600"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_400"
           }
         ]
       }
@@ -1356,7 +926,7 @@
             "label": "Original (as uploaded)"
           },
           {
-            "value": "100x45",
+            "value": "120x60",
             "label": "Optimized for theme"
           },
           {
@@ -1376,7 +946,7 @@
             "label": "Original (as uploaded)"
           },
           {
-            "value": "74x13",
+            "value": "80x20",
             "label": "Optimized for theme"
           },
           {
@@ -1392,7 +962,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "384x216",
+            "value": "360x240",
             "label": "Optimized for theme"
           },
           {
@@ -1468,7 +1038,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "250x250",
+            "value": "240x240",
             "label": "Optimized for theme"
           },
           {
@@ -1484,7 +1054,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "45x45",
+            "value": "60x60",
             "label": "Optimized for theme"
           },
           {
@@ -1504,7 +1074,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "300x300",
+            "value": "360x360",
             "label": "Optimized for theme"
           },
           {
@@ -1592,7 +1162,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "760x760",
+            "value": "800x800",
             "label": "Optimized for theme"
           },
           {
@@ -1608,7 +1178,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "50x50",
+            "value": "60x60",
             "label": "Optimized for theme"
           },
           {
@@ -1624,7 +1194,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "1280x1280",
+            "value": "1200x1200",
             "label": "Optimized for theme"
           },
           {
@@ -1640,7 +1210,7 @@
         "force_reload": true,
         "options": [
           {
-            "value": "100x100",
+            "value": "120x120",
             "label": "Optimized for theme"
           },
           {
@@ -1666,34 +1236,6 @@
           {
             "value": 24,
             "label": "24"
-          },
-          {
-            "value": 36,
-            "label": "36"
-          },
-          {
-            "value": 48,
-            "label": "48"
-          },
-          {
-            "value": 60,
-            "label": "60"
-          },
-          {
-            "value": 72,
-            "label": "72"
-          },
-          {
-            "value": 84,
-            "label": "84"
-          },
-          {
-            "value": 96,
-            "label": "96"
-          },
-          {
-            "value": 100,
-            "label": "100"
           }
         ]
       },
@@ -1710,34 +1252,6 @@
           {
             "value": 24,
             "label": "24"
-          },
-          {
-            "value": 36,
-            "label": "36"
-          },
-          {
-            "value": 48,
-            "label": "48"
-          },
-          {
-            "value": 60,
-            "label": "60"
-          },
-          {
-            "value": 72,
-            "label": "72"
-          },
-          {
-            "value": 84,
-            "label": "84"
-          },
-          {
-            "value": 96,
-            "label": "96"
-          },
-          {
-            "value": 100,
-            "label": "100"
           }
         ]
       },
@@ -1754,34 +1268,6 @@
           {
             "value": 24,
             "label": "24"
-          },
-          {
-            "value": 36,
-            "label": "36"
-          },
-          {
-            "value": 48,
-            "label": "48"
-          },
-          {
-            "value": 60,
-            "label": "60"
-          },
-          {
-            "value": 72,
-            "label": "72"
-          },
-          {
-            "value": 84,
-            "label": "84"
-          },
-          {
-            "value": 96,
-            "label": "96"
-          },
-          {
-            "value": 100,
-            "label": "100"
           }
         ]
       },
@@ -1802,34 +1288,6 @@
           {
             "value": 24,
             "label": "24"
-          },
-          {
-            "value": 36,
-            "label": "36"
-          },
-          {
-            "value": 48,
-            "label": "48"
-          },
-          {
-            "value": 60,
-            "label": "60"
-          },
-          {
-            "value": 72,
-            "label": "72"
-          },
-          {
-            "value": 84,
-            "label": "84"
-          },
-          {
-            "value": 96,
-            "label": "96"
-          },
-          {
-            "value": 100,
-            "label": "100"
           }
         ]
       },
@@ -1880,6 +1338,32 @@
             "label": "As Entered"
           }
         ]
+      },
+      {
+        "type": "heading",
+        "content": "Shopping Cart & Checkout"
+      },
+      {
+        "type": "text",
+        "label": "GeoTrust SSL Common Name",
+        "force_reload": true,
+        "id": "geotrust_ssl_common_name"
+      },
+      {
+        "type": "select",
+        "label": "GeoTrust Seal Size",
+        "id": "geotrust_ssl_seal_size",
+        "options": [
+          {
+            "value": "M",
+            "label": "Medium"
+          },
+          {
+            "value": "S",
+            "label": "Small"
+          }
+        ],
+        "force_reload": true
       }
     ]
   },
@@ -2480,7 +1964,7 @@
       },
       {
         "type": "checkbox",
-        "label": "Show &quot;Shop by Price&quot; (only available when filters are disabled)",
+        "label": "Show &quot;Shop by Price&quot;",
         "force_reload": true,
         "id": "shop_by_price_visibility"
       },
@@ -2677,54 +2161,14 @@
         "id": "optimizedCheckout-headingPrimary-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Light",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Bold",
-            "value": "Google_Montserrat_700"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Roboto Condensed",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
             "group": "Roboto",
-            "label": "Roboto Condensed Bold",
-            "value": "Google_Roboto+Condensed_700"
-          },
-          {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -2743,49 +2187,14 @@
         "id": "optimizedCheckout-headingSecondary-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Light",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Bold",
-            "value": "Google_Montserrat_700"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Roboto Condensed",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -2818,49 +2227,14 @@
         "id": "optimizedCheckout-contentPrimary-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Light",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_500"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
-            "group": "Helvetica",
-            "label": "Helvetica",
-            "value": "Helvetica"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -2879,49 +2253,14 @@
         "id": "optimizedCheckout-contentSecondary-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Light",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_500"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
-            "group": "Helvetica",
-            "label": "Helvetica",
-            "value": "Helvetica"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -2940,49 +2279,14 @@
         "id": "optimizedCheckout-link-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Light",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_500"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
-            "group": "Helvetica",
-            "label": "Helvetica",
-            "value": "Helvetica"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -3061,49 +2365,14 @@
         "id": "optimizedCheckout-buttonPrimary-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat Light",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_500"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Roboto Condensed",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
@@ -3162,44 +2431,14 @@
         "id": "optimizedCheckout-buttonSecondary-font",
         "options": [
           {
-            "group": "Open Sans",
-            "label": "Open Sans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "Open Sans",
-            "label": "Open Sans Bold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "Montserrat",
-            "label": "Montserrat",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "Karla",
-            "label": "Karla",
-            "value": "Google_Karla_400"
-          },
-          {
             "group": "Roboto",
             "label": "Roboto",
             "value": "Google_Roboto_400"
           },
           {
-            "group": "Roboto Condensed",
-            "label": "Roboto Condensed",
-            "value": "Google_Roboto+Condensed_400"
-          },
-          {
-            "group": "Source Sans Pro",
-            "label": "Source Sans Pro",
-            "value": "Google_Source+Sans+Pro_400"
-          },
-          {
-            "group": "Volkhov",
-            "label": "Volkhov",
-            "value": "Google_Volkhov_400"
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_700"
           }
         ]
       },
