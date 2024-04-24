@@ -1,0 +1,305 @@
+---
+product:
+videos:
+limit: {{theme_settings.productpage_videos_count}}
+reviews:
+limit: {{theme_settings.productpage_reviews_count}}
+related_products:
+limit: {{theme_settings.productpage_related_products_count}}
+similar_by_views:
+limit: {{theme_settings.productpage_similar_by_views_count}}
+---
+{{inject 'productId' product.id}}
+
+{{#partial "page"}}
+<div class="container">
+    {{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
+
+    {{#each product.shipping_messages}}
+    {{> components/common/alert/alert-info message}}
+    {{/each}}
+</div>
+
+<div itemscope itemtype="http://schema.org/Product">
+    <div class="container">
+        {{> components/products/product-view schema=true }}
+        {{{region name="product_below_content"}}}
+
+        <div class="grid-bg">
+            <div class="container">
+                <h2>Recommended Accessories</h2>
+                <a href="https://microscopeinternational.com/microscope-accessories/"
+                    class="button button--secondary button--small" style="display: inline-block;">View All</a>
+                <ul class="productGrid productGrid--maxCol2">
+                    <li class="product">
+                        <article class="card">
+                            <figure class="card-figure">
+                                <a href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/"
+                                    class="card-figure__link"
+                                    aria-label="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification,$821.00">
+                                    <div class="card-img-container">
+                                        <img class="card-image lazyautosizes lazyloaded" data-sizes="auto"
+                                            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/2433/1530/MFL-5000-US-DG__52629.1614112863.jpg?c=1"
+                                            data-src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/2433/1530/MFL-5000-US-DG__52629.1614112863.jpg?c=1"
+                                            alt="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            title="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            sizes="267px">
+                                    </div>
+                                </a>
+                                <figcaption class="card-figcaption">
+                                    <div class="card-figcaption-body">
+                                        <div class="card-figcaption--action-buttons">
+                                            <a class="button button--secondary button--small card-figcaption-button quickview"
+                                                data-product-id="1039">Quick view</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="card-title">
+                                        <a
+                                            href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/">ACCU-SCOPE
+                                            3078-B</a>
+                                    </h4>
+                                    <div class="card-text" data-test-info-type="price">
+                                        <div class="price-section price-section--withoutTax ">
+                                            <span
+                                                class="price-section price-section--withoutTax non-sale-price--withoutTax"
+                                                style="display: none;">
+                                                <span data-product-non-sale-price-without-tax=""
+                                                    class="price price--non-sale">
+
+                                                </span>
+                                            </span>
+                                            <span data-product-price-without-tax=""
+                                                class="price price--withoutTax">$899.99</span>
+                                            <span data-product-rrp-without-tax=""
+                                                class="price price--rrp">$999.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product">
+                        <article class="card">
+                            <figure class="card-figure">
+                                <a href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/"
+                                    class="card-figure__link"
+                                    aria-label="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification,$821.00">
+                                    <div class="card-img-container">
+                                        <img class="card-image lazyautosizes lazyloaded" data-sizes="auto"
+                                            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/1342/1464/UN15854__46004.1618593457.jpg?c=1"
+                                            data-src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/1342/1464/UN15854__46004.1618593457.jpg?c=1"
+                                            alt="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            title="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            sizes="267px">
+                                    </div>
+                                </a>
+                                <figcaption class="card-figcaption">
+                                    <div class="card-figcaption-body">
+                                        <div class="card-figcaption--action-buttons">
+                                            <a class="button button--secondary button--small card-figcaption-button quickview"
+                                                data-product-id="1039">Quick view</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="card-title">
+                                        <a
+                                            href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/">ACCU-SCOPE
+                                            3078-B</a>
+                                    </h4>
+                                    <div class="card-text" data-test-info-type="price">
+                                        <div class="price-section price-section--withoutTax ">
+                                            <span
+                                                class="price-section price-section--withoutTax non-sale-price--withoutTax"
+                                                style="display: none;">
+                                                <span data-product-non-sale-price-without-tax=""
+                                                    class="price price--non-sale">
+
+                                                </span>
+                                            </span>
+                                            <span data-product-price-without-tax=""
+                                                class="price price--withoutTax">$899.99</span>
+                                            <span data-product-rrp-without-tax=""
+                                                class="price price--rrp">$999.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product">
+                        <article class="card">
+                            <figure class="card-figure">
+                                <a href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/"
+                                    class="card-figure__link"
+                                    aria-label="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification,$821.00">
+                                    <div class="card-img-container">
+                                        <img class="card-image lazyautosizes lazyloaded" data-sizes="auto"
+                                            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/2646/2971/ma961d-s-esd__42020.1614112999.jpg?c=1"
+                                            data-src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/2646/2971/ma961d-s-esd__42020.1614112999.jpg?c=1"
+                                            alt="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            title="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            sizes="267px">
+                                    </div>
+                                </a>
+                                <figcaption class="card-figcaption">
+                                    <div class="card-figcaption-body">
+                                        <div class="card-figcaption--action-buttons">
+                                            <a class="button button--secondary button--small card-figcaption-button quickview"
+                                                data-product-id="1039">Quick view</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="card-title">
+                                        <a
+                                            href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/">ACCU-SCOPE
+                                            3078-B</a>
+                                    </h4>
+                                    <div class="card-text" data-test-info-type="price">
+                                        <div class="price-section price-section--withoutTax ">
+                                            <span
+                                                class="price-section price-section--withoutTax non-sale-price--withoutTax"
+                                                style="display: none;">
+                                                <span data-product-non-sale-price-without-tax=""
+                                                    class="price price--non-sale">
+
+                                                </span>
+                                            </span>
+                                            <span data-product-price-without-tax=""
+                                                class="price price--withoutTax">$899.99</span>
+                                            <span data-product-rrp-without-tax=""
+                                                class="price price--rrp">$999.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product">
+                        <article class="card">
+                            <figure class="card-figure">
+                                <a href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/"
+                                    class="card-figure__link"
+                                    aria-label="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification,$821.00">
+                                    <div class="card-img-container">
+                                        <img class="card-image lazyautosizes lazyloaded" data-sizes="auto"
+                                            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/4870/4408/LE.5210__05114.1636746291.1280.1280__59411.1636746461.jpg?c=1"
+                                            data-src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/1200x1200/products/4870/4408/LE.5210__05114.1636746291.1280.1280__59411.1636746461.jpg?c=1"
+                                            alt="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            title="ACCU-SCOPE 3078-BS Binocular Zoom Stereo Microscope on Boom Stand, 8x - 35x Magnification"
+                                            sizes="267px">
+                                    </div>
+                                </a>
+                                <figcaption class="card-figcaption">
+                                    <div class="card-figcaption-body">
+                                        <div class="card-figcaption--action-buttons">
+                                            <a class="button button--secondary button--small card-figcaption-button quickview"
+                                                data-product-id="1039">Quick view</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="card-title">
+                                        <a
+                                            href="https://microscopeinternational.com/accu-scope-3078-zoom-stereo-microscope-on-boom-stand-8x-35x-magnification/">ACCU-SCOPE
+                                            3078-B</a>
+                                    </h4>
+                                    <div class="card-text" data-test-info-type="price">
+                                        <div class="price-section price-section--withoutTax ">
+                                            <span
+                                                class="price-section price-section--withoutTax non-sale-price--withoutTax"
+                                                style="display: none;">
+                                                <span data-product-non-sale-price-without-tax=""
+                                                    class="price price--non-sale">
+
+                                                </span>
+                                            </span>
+                                            <span data-product-price-without-tax=""
+                                                class="price price--withoutTax">$899.99</span>
+                                            <span data-product-rrp-without-tax=""
+                                                class="price price--rrp">$999.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    {{> components/products/tabs schema=true }}
+
+
+
+
+    {{#if product.related_products}}
+    {{#unless theme_settings.related_products_tab}}
+    <div id="tab-related">
+        <div class="grid-bg">
+            <div class="container">
+                <h3 class="main-heading uppercase center"><strong>{{lang 'products.related_products'}}</strong></h3>
+                {{#if settings.data_tag_enabled}}
+                {{> components/products/related products=product.related_products columns=6 list="Related Products"}}
+                {{else}}
+                {{> components/products/related products=product.related_products columns=6}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+    {{/unless}}
+    {{/if}}
+
+    {{#if product.similar_by_views}}
+    {{#unless theme_settings.customer_viewed_products_tab}}
+    <div id="tab-related">
+        <div class="grid-bg">
+            <div class="container">
+                <h3 class="main-heading uppercase center"><strong>{{lang 'products.similar_by_views'}}</strong></h3>
+                {{> components/products/similar-by-views products=product.similar_by_views columns=6}}
+            </div>
+        </div>
+    </div>
+    {{/unless}}
+    {{/if}}
+
+    {{#if settings.show_product_reviews}}
+    {{#gt product.reviews.total 0}}
+    <div class="container">
+        <h3 class="main-heading uppercase" id="reviews-accordion">Reviews</h3>
+        {{> components/products/reviews reviews=product.reviews product=product urls=urls}}
+    </div>
+    {{/gt}}
+    {{/if}}
+
+</div>
+{{/partial}}
+{{> layout/base}}
