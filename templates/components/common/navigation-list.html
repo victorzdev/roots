@@ -1,40 +1,608 @@
-{{#if children}}
-<a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
-   href="{{url}}"
-   data-collapsible="navPages-{{id}}"
->
-    {{name}}
-    <i class="icon navPages-action-moreIcon" aria-hidden="true">
-        <svg><use xlink:href="#icon-chevron-down" /></svg>
-    </i>
-</a>
-<div class="column-menu navPage-subMenu" id="navPages-{{id}}" aria-hidden="true" tabindex="-1">
-    <ul class="navPage-subMenu-list">
-        {{#each children}}
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/compound-microscopes/">
+        Compound Microscopes
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
             <li class="navPage-subMenu-item">
-                <i class="icon navPages-action-moreIcon" aria-hidden="true"><svg><use xlink:href="#icon-chevron-right" /></svg></i>
-                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}" href="{{url}}">{{name}}</a>
-                {{#if children}}
-                    <i class="icon navPages-action-moreIcon navPages-action-closed" aria-hidden="true"><svg><use xlink:href="#icon-plus" /></svg></i>
-                    <i class="icon navPages-action-moreIcon navPages-action-open" aria-hidden="true"><svg><use xlink:href="#icon-minus" /></svg></i>
-                {{/if}}
-                
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/biological-microscopes/">Biological Microscopes</a>
             </li>
-            {{#if children}}
-                {{#each children}}
-                    <li class="navPage-childList-item">
-                        <a class="navPage-childList-action navPages-action{{#if is_active}} activePage{{/if}}" href="{{url}}">{{name}}</a>
-                    </li>
-                {{/each}}
-            {{/if}}
-        {{/each}}
-    </ul>
-</div>
-{{else}}
-<a class="navPages-action{{#if is_active}} activePage{{/if}}"
-   href="{{url}}"
-   aria-label="{{name}}"
->
-    {{name}}
-</a>
-{{/if}}
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/clinical-microscopes/">Laboratory Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/teaching-multi-head-microscopes/">Multi-Head
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/student-microscopes/">Student Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/portable-field-microscopes/">Field Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/surgical-microscopes/">Surgical Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/inverted-microscopes/">Inverted Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/phase-contrast-microscopes/">Phase Contrast
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/fluorescence-microscopes/">Fluorescence
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/metallurgical-microscopes/">Metallurgical
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/polarizing-microscopes/">Polarizing Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/antique-microscopes/">Antique Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/refurbished-compound-microscopes/">Refurbished
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/darkfield-microscopes/">Darkfield Microscopes</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/stereo-microscopes/">
+        Stereo Microscopes
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/led-stereo-microscopes/">LED Stereo Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/zoom-stereo-microscopes/">Zoom Stereo Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/boom-stand-stereo-microscopes/">Boom Stand
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/articulating-arm-stereo-microscopes/">Articulating
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/modular-stereo-microscopes/">Modular Stereo
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/stereo-microscope-components/">Stereo Microscope
+                    Components</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/common-main-objective-stereo-microscopes/">Common Main
+                    Objective</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/meiji-microscopes/">Meiji Stereo Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/lx-microscopes-by-unitron/">LX Microscopes by
+                    UNITRON</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/teaching-multi-head-microscopes/?_bc_fsnf=1&Configuration=Stereo">Stereo
+                    Discussion Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/stereo-fluorescence-microscopes/">Stereo Fluorescence
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/refurbished-stereo-microscopes/">Refurbished Stereo
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/stereo-microscopes/">View All Stereo Microscopes</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/digital-microscopes/">
+        Digital Microscopy
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/compound-microscopes-with-camera/">Digital Compound
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/stereo-microscopes-with-camera/">Digital Stereo
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-microscopes-with-screen/">Microscopes with LCD
+                    Display</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/handheld-digital-microscopes/">Handheld Digital
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-microscope-packages/">Digital Microscope
+                    Packages</a>
+            </li>
+
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-inspection-microscopes/">Digital Inspection
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/video-inspection-microscopes/">Video Inspection
+                    Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-microscope-cameras/">Digital Microscope
+                    Cameras</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-eyepiece-cameras/">Digital Eyepiece Cameras</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/video-microscope-cameras/">Video Microscope Cameras</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-camera-displays/">LCDs & Touch Screens</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-camera-adapters/">C-Mount & DSLR Adapters</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-usb-microscopes/">USB Microscopes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/digital-microscopes/">View All Digital Microscopes</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/microscopes-by-application/">
+        Applications
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/asbestos-microscopes/">Asbestos</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/dental-microscopes/">Dental</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/dissecting-microscopes/">Dissection</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/forensic-comparison-microscopes/">Forensic
+                    Comparison</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/gemological-microscopes/">Gemological</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/hematology-microscopes/">Hematology</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/inspection-microscopes/">Inspection</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/live-blood-cell-analysis-microscopes/">Live Blood
+                    Cell</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/measuring-toolmaker-microscopes/">Measuring &
+                    Toolmaking</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/mohs-dermatology-microscopes/">Mohs Dermatology</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/cytology-pathology-microscopes/">Pathology Cytology</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/soldering-microscopes/">Soldering</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/fine-needle-aspiration-microscopes/">Fine Needle
+                    Aspirations</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microsurgical-microscopes/">Microsurgical</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/veterinary-microscopes/">Veterinary</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/embryo-transplant-microscopes/">Embryo Transplant</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/semen-analysis-microscopes/">Semen Analysis</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/gout-rheumatology-microscopes/">Gout Rheumatology</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/waste-water-treatment-microscopes/">Wastewater
+                    Treatment</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/professional-hair-analysis-transplant-microscopes/">Hair
+                    Analysis</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscopes-by-application/">View More
+                    Applications</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/microscope-accessories/">
+        Accessories
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-objectives/">Objectives</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-eyepieces/">Eyepieces</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-bulbs/">Replacement Bulbs</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-slides/">Microscope Slides</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/reticles-micrometers/">Reticles & Micrometers</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/illuminators/">Microscope Illuminators</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-carrying-cases/">Carrying Cases</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/pelican-molded-cases/">Pelican Molded Cases</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/counting-chambers-makler/">Counting Chambers</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/cell-counters/">Cell Counters</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/surgical-loupes/">Surgical Loupes</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/tabletop-magnifiers/">Illuminated Magnifiers</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/laboratory-equipment/">Laboratory Equipment</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-accessories/">View All Accessories</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/brands/">
+        Brands
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/accu-scope/">ACCU-SCOPE</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/euromex/">Euromex</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/labomed/">LABOMED</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/leica/">Leica</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/lumenera/">Lumenera</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/lw-scientific/">LW Scientific</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/meiji/">Meiji Techno</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/mitutoyo/">Mitutoyo</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/olympus/">Olympus</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/optika/">OPTIKA</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/scienscope/">Scienscope</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/ash-technologies/">Ash Technologies</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/iolight-limited/">ioLight</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/steindorff/">Steindorff</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/unitron/">UNITRON</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/carl-zeiss/">Zeiss</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/motic/">Motic</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/nikon/">Nikon</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/swift/">Swift</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brand/firefly/">Firefly</a>
+            </li>
+        </ul>
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/brands/">View All Brands</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
+        href="https://microscopeinternational.com/microscope-service-and-repair/">
+        Services
+        <i class="icon navPages-action-moreIcon" aria-hidden="true">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <div class="column-menu navPage-subMenu" aria-hidden="true" tabindex="-1">
+        <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-service-and-repair/">Microscope Service &
+                    Repair</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/rentals/">Microscope Rental</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/microscope-service-protection/">Free Service
+                    Protection</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/parts-and-bulb-request/">Microscope Parts & Bulbs</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/gsa-federal-supply-schedules-contracts/">Government</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}"
+                    href="https://microscopeinternational.com/new-york-city-department-of-education-vendor/">NYC DoE
+                    Vendor</a>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="navPages-item">
+    <a style="color: #d5353d;" target="_blank" title="Shop PPE and medical products"
+        class="navPages-action{{#if is_active}} activePage{{/if}}" href="https://romimedical.com/">Shop PPE</a>
+</li>
+<li class="navPages-item">
+    <a href="https://microscopeinternational.com/new-york-city-department-of-education-vendor/">
+        <img alt="Department of Education Vendor"
+            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/product_images/uploaded_images/nyc-doe-logo.png?728">
+    </a><a href="https://microscopeinternational.com/gsa-federal-supply-schedules-contracts/">
+        <img alt="GSA Contractor"
+            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/product_images/uploaded_images/gsa-logo.png?7281">
+    </a>
+    <a target="_blank"
+        href="https://microscopeinternational.com/content/PDF/forms/new-york-microscope-company-mwbe-certificate.pdf">
+        <img alt="Woman Owned Small Business"
+            src="https://cdn11.bigcommerce.com/s-65c7m3a4v0/product_images/uploaded_images/sba-wosb-logo.png?728">
+    </a>
+</li>
