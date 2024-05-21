@@ -1,0 +1,414 @@
+// =============================================================================
+// Custom SCSS - Microscope International
+// =============================================================================
+
+// Sitewide
+// -----------------------------------------------------------------------------
+p{
+    margin-bottom: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
+}
+
+.icon--ratingFull svg{
+    fill: #ffcc00;
+}
+
+
+// Header - Top Header Nav
+// -----------------------------------------------------------------------------
+.top-header-dt {
+	background-color: #044271;
+	padding: 0 1rem;
+}
+.top-header-row {
+	display: flex;
+	justify-content: space-between;
+	height: 2.5rem;
+	padding: 0.5rem 0;
+}
+.top-header-row a {
+	color: $button--primary-backgroundColor;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+.top-header-right span {
+	margin: 0 0.5rem;
+}
+
+.breadcrumbs-wrapper{
+	padding-top: 1rem;
+}
+.navPages-action{
+    font-size: 0.875rem;
+    padding: 15px 10px;
+}
+@media only screen and (min-width: 801px) {
+    .header-logo--wrap {
+    /* background: url('https://store-65c7m3a4v0.mybigcommerce.com/content/holiday-2021-header.png') center no-repeat;
+    */
+    }
+}
+
+// Homepage - Hero Banners
+// -----------------------------------------------------------------------------
+.section-banner {
+	margin: 1rem 0;
+}
+.primary-banner {
+	padding: 0;
+}
+.secondary-banner {
+	margin-bottom: 0.5rem;
+	padding: 0;
+}
+@media only screen and (max-width: 800px) {
+	.visible-mb {
+		display: block;
+	}
+	.hidden-mb {
+		display: none;
+	}
+}
+@media only screen and (min-width: 801px) {
+	.section-banner {
+		display: flex;
+		margin: 0.5rem 0;
+	}
+	.primary-banner {
+		order: 1;
+		flex: 209;
+	}
+	.secondary-banner {
+		order: 2;
+		flex: 100;
+	}
+	.visible-mb {
+		display: none;
+	}
+}
+
+// Homepage - Tiles
+// -----------------------------------------------------------------------------
+.section-tiles {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+.tile {
+	display: flex;
+    align-items: flex-end;
+    position: relative;
+    max-width: 390px;
+    min-height: 300px;
+	margin: 0.5rem auto;
+}
+.tile-cover {
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+.tile-inner {
+	width: 100%;
+	color: $color-white;
+	text-align: center;
+	padding: 10px 0px;
+	z-index: 1;
+}
+.tile-inner::before {
+	content: "";
+	position: absolute;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		0deg,
+		rgba(4, 66, 113, 0.9) 0%,
+		rgba(4, 66, 113, 0.9) 30%,
+		rgba(4, 66, 113, 0) 60%
+	);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	left: 0;
+	top: 0;
+}
+.tile-heading {
+	color: $color-white;
+	font-size: 1.5rem;
+	margin: 0;
+}
+.tile-subtitle {
+	margin: 0;
+}
+.tile-cta {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 6px 8px;
+	border: 3px solid $color-white;
+	border-radius: 5px;
+}
+
+// Category - Subcategory Layout
+// -----------------------------------------------------------------------------
+.shop-module-boxes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1rem;
+}
+@media (max-width: 768px) {
+	.shop-module-boxes {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (min-width: 769px) {
+	.shop-module-boxes {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+.shop-module-wrap {
+	margin-bottom: 1rem;
+}
+.shop-module-top {
+}
+.shop-module-top h2 {
+	font-size: 1.2rem;
+}
+.shop-module-box {
+	padding: 1rem;
+	border: 1px solid #dcdcdc;
+	margin-bottom: 1rem;
+}
+.shop-module-img {
+	max-width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.shop-module-info {
+	margin: 1rem 0;
+}
+.shop-module-info h3 {
+	font-size: 1rem;
+	text-align: center;
+}
+
+.heading-underline{
+    border-bottom: 2px solid #124271;
+}
+// Category - Sort Forms
+// -----------------------------------------------------------------------------
+.actionBar-section .form-field{
+	border: 2px solid #ccc;
+}
+.actionBar-section .form-label{
+	font-size: 15px;
+	color: #0065c0;
+}
+.form-select--small, .form-select--date{
+	font-size: 15px;
+}
+
+// Category - Description Bottom
+// -----------------------------------------------------------------------------
+.category-content {
+	margin-top: 2rem;
+}
+.sub-card {
+	display: flex;
+	align-items: center;
+}
+.sub-card-img {
+	flex: 1;
+}
+.sub-card-text {
+	background-color: $color-greyLightest;
+	flex: 1;
+	padding: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+	.sub-card {
+		flex-direction: column;
+	}
+	.sub-card-img {
+		order: 1;
+	}
+	.sub-card-text {
+		order: 2;
+	}
+}
+@media only screen and (min-width: 801px) {
+	.sub-card:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+}
+
+.button--flat{
+    padding: 1rem;
+}
+
+// Product - Specification Table
+// -----------------------------------------------------------------------------
+.product-specs {
+	width: 100%;
+	background: #ffffff;
+	margin-top: 20px;
+}
+.specs-header {
+	padding: 0;
+	border-top: none;
+	border-bottom: none;
+	cursor: initial;
+	margin: 0 0 1.2rem 0;
+}
+.specs-table {
+	margin-bottom: 2rem;
+	vertical-align: middle;
+}
+.specs-table .specs-name {
+	width: 22%;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	padding: 0.75rem;
+}
+.specs-table .specs-value {
+	vertical-align: top;
+	padding: 0.75rem;
+	line-height: 1.8;
+}
+.specs-table > tbody > tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.specs-table table ul {
+	list-style-type: disc;
+	margin-bottom: 10px;
+}
+
+// Product - Table Style (Legacy)
+// -----------------------------------------------------------------------------
+.TblStyle {
+	background: #fff;
+	margin-top: 20px;
+}
+.TblStyle th {
+	font-size: 16px;
+	padding: 16px 0 16px 0;
+	border-bottom: 1px solid #b3b3b3;
+	font-weight: normal;
+	border-right: none;
+}
+.TblStyle td {
+	border-bottom: 1px solid #dddddd;
+	font-size: 13px;
+	padding: 1.125em 0.5em 1.25em 0.5em;
+	border-collapse: collapse;
+	border-right: none;
+}
+.TblStyle td ul {
+	list-style-type: disc;
+}
+
+table,
+td,
+th {
+	border: none;
+}
+
+// PDF Attachment
+// -----------------------------------------------------------------------------
+.product-pdf-icon p:before{
+	content: "";
+    background-image: url(http://microscopeinternational.com/content/PDF/pdf.svg);
+    background-repeat: no-repeat;
+    padding: 16px;
+    cursor: pointer;
+    float: left;
+    margin-right: 6px;
+}
+// Product Tabs
+// -----------------------------------------------------------------------------
+.accordion-tab-title {
+    margin: 0;
+    padding: 1.5rem 0;
+    text-transform: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #0065c0;
+}
+
+// Parent Category Layout
+// -----------------------------------------------------------------------------
+.page-content-subcategories .subcategory-grid .image-circle {
+	align-items: center;
+	display: flex;
+	flex: 0 1 auto;
+	flex-flow: row nowrap;
+	height: 140px;
+	margin: 0 auto 10px;
+	width: 100%;
+	position: relative;
+	clip-path: circle(45%);
+}
+@media only screen and (min-width: 801px) {
+	.page-content-subcategories .subcategory-grid .image-circle {
+	    height: $subcategoryGrid-imageHeight;   
+	}
+}
+
+// Promo Header
+// -----------------------------------------------------------------------------
+.promo-header {
+    text-align: center;
+    margin-top: 0.5rem;
+    height: 2rem;
+}
+.promo-header p {
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+    font-size: 0.875rem;
+}
+@media only screen and (min-width: 801px) {
+    .promo-header {
+        margin-top: 3rem;
+        height: 2rem;
+    }
+}
+// Body
+@media (min-width: 801px) {
+    .body {
+        margin-top:1rem
+    }
+}
+
+// Promo Header
+// -----------------------------------------------------------------------------
+.estimator-form .button--secondary {
+    width: 60%;
+}
+
+// Promo Text
+//
+.qty-offer{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #3bad2f;
+}
+
+
+//Quick View on Mobile
+// -----------------------------------------------------------------------------
+@media (max-width: 768px) {
+	.quickView .productView-details, .quickView .productView-images {
+		max-width: 100%;
+	}
+}
