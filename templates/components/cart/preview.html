@@ -1,48 +1,43 @@
 <div class="modal-body fastCart">
     <div class="previewCart">
         <section class="previewCartCheckout">
-            <div>
-                <a href="{{urls.cart}}" class="button">
-                    {{lang 'cart.added_to_cart.view_or_edit_cart'}}
-                </a>
-                <p data-cart-quantity="{{cart.quantity}}">
-                    {{lang 'cart.added_to_cart.your_cart_contains' num_products=cart.quantity}}.
-                    {{lang 'cart.added_to_cart.order_subtotal'}}
-
-                    <strong>
-                        {{#or customer (if theme_settings.restrict_to_login '!==' true)}}
-                            {{cart.sub_total.formatted}}
-                        {{else}}
-                            {{> components/common/login-for-pricing}}
-                        {{/or}}
-                    </strong>
-                </p>
-            </div>
             {{#if cart.show_primary_checkout_button}}
-                <div>
-                    <a href="{{urls.checkout.single_address}}" class="button button--primary">
-                        {{lang 'cart.added_to_cart.proceed_to_checkout'}}
-                    </a>
-                    {{#if cart.additional_checkout_buttons}}
-                        <div class="previewCartCheckout-additionalCheckoutButtons">
-                            {{#each cart.additional_checkout_buttons}}
-                                {{{this}}}
-                            {{/each}}
-                        </div>
-                    {{/if}}
-                    {{#if cart.show_multiple_address_shipping}}
-                        <p>
-                            <a href="{{urls.checkout.multiple_address}}">
-                                {{lang 'cart.preview.checkout_multiple'}}
-                            </a>
-                        </p>
-                    {{/if}}
+            <p data-cart-quantity="{{cart.quantity}}">
+                {{lang 'cart.added_to_cart.your_cart_contains' num_products=cart.quantity}}.
+                {{lang 'cart.added_to_cart.order_subtotal'}}
+            
+                <strong>
+                    {{#or customer (if theme_settings.restrict_to_login '!==' true)}}
+                    {{cart.sub_total.formatted}}
+                    {{else}}
+                    {{> components/common/login-for-pricing}}
+                    {{/or}}
+                </strong>
+            </p>
+            <div>
+                <a href="{{urls.checkout.single_address}}" class="button button--primary">
+                    {{lang 'cart.added_to_cart.proceed_to_checkout'}}
+                </a>
+                {{#if cart.additional_checkout_buttons}}
+                <div class="previewCartCheckout-additionalCheckoutButtons">
+                    {{#each cart.additional_checkout_buttons}}
+                    {{{this}}}
+                    {{/each}}
                 </div>
+                {{/if}}
+                {{#if cart.show_multiple_address_shipping}}
+                <p>
+                    <a href="{{urls.checkout.multiple_address}}">
+                        {{lang 'cart.preview.checkout_multiple'}}
+                    </a>
+                </p>
+                {{/if}}
+            </div>
             {{/if}}
         </section>
         <section class="productView">
             <div class="whatNext">
-                <h5>{{lang 'cart.added_to_cart.what_next' num_products=cart.quantity}}</h5>
+                <p>{{lang 'cart.added_to_cart.what_next' num_products=cart.quantity}}</p>
             </div>
 
             {{#with cart.added_item}}
@@ -62,8 +57,8 @@
                         {{name}}
                     </h2>
 
-                    <div class="productView-brand">
-                        {{brand.name}}
+                    <div class="productView-sku">
+                        {{sku}}
                     </div>
 
                     <div class="productView-price">
