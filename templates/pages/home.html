@@ -1,78 +1,129 @@
----
-products:
-    new:
-        limit: {{theme_settings.homepage_new_products_count}}
-    featured:
-        limit: {{theme_settings.homepage_featured_products_count}}
-    top_sellers:
-        limit: {{theme_settings.homepage_top_products_count}}
-carousel: {{theme_settings.homepage_show_carousel}}
-blog:
-    recent_posts:
-        limit: {{theme_settings.homepage_blog_posts_count}}
----
-{{#partial "hero"}}
-    {{#if carousel}}
-        {{> components/carousel arrows=theme_settings.homepage_show_carousel_arrows play_pause_button=theme_settings.homepage_show_carousel_play_pause_button}}
-    {{/if}}
-
-    {{#if banners.top}}
-    <div class="banners" data-banner-location="top">
-        {{#each (limit banners.top_metadata 1)}}
-        <div class="banner" data-event-type="promotion" data-entity-id="{{this.id}}" data-name="{{this.banner-name}}" data-position="{{this.location}}" data-banner-id="{{this.banner-name}}">
-            <div data-event-type="promotion-click">
-                {{{this.content}}}
-            </div>
-        </div>
-        {{/each}}
-    </div>
-    {{/if}}
-
-    {{{snippet 'home_content'}}}
-
-    {{{region name="home_below_carousel"}}}
-
-{{/partial}}
-
 {{#partial "page"}}
-    {{#each shipping_messages}}
-        {{> components/common/alert/alert-info message}}
-    {{/each}}
+{{#each shipping_messages}}
+{{> components/common/alert/alert-info message}}
+{{/each}}
+<div class="main full">
+  <div class="container">
 
-    <div class="main full grid-bg">
-        <div class="container">
-            {{#if products.featured}}
-                {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
-            {{/if}}
-            {{{region name="home_below_featured_products"}}}
-        
-            {{#if products.top_sellers}}
-                {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
-            {{/if}}
-            {{{region name="home_below_top_products"}}}
-        
-            {{#if products.new}}
-                {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
-            {{/if}}
-        </div>
-    </div>
-{{/partial}}
+    {{{region name="home_dual_banner"}}}
 
-{{#partial "hero-bottom"}}
-    {{#if blog.recent_posts}}
-        <div class="banners blog-posts-wrap">
-            <div class="container">
-                <h2 class="page-heading">Recent Posts</h2> 
-                <div class="blog-posts">
-                    {{#each blog.recent_posts}}
-                        {{> components/blog/post post=this}}
-                    {{/each}}
-                </div>
-            </div>
-        </div>
-    {{/if}}
+    {{{region name="home_popular_products"}}}
+    {{{region name="home_popular_categories"}}}
+    {{{region name="home_popular_accessories"}}}
 
-    {{{region name="home_below_new_products"}}}
+    {{{region name="home_company_description"}}}
+    {{{region name="home_customer_reviews"}}}
+
+    {{{region name="home_top_brands"}}}
+
+    {{{region name="home_company_services"}}}
+
+    {{{region name="home_bottom_content"}}}
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://microscopeinternational.com/#webpage",
+  "url": "https://microscopeinternational.com/",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://microscopeinternational.com/#website",
+    "url": "https://microscopeinternational.com/",
+    "name": "New York Microscope Company"
+  },
+  "primaryImageOfPage": {
+    "@id": "https://microscopeinternational.com/#primaryimage",
+    "url": "https://cdn11.bigcommerce.com/s-65c7m3a4v0/product_images/uploaded_images/dt-hero-microscope.jpg"
+  },
+  "description": "The experts at New York Microscope Company are here to help you! Browse our online microscope store for the latest products, accessories, and PPE. Contact us today!",
+  "name": "Online Microscope Store | New York Microscope Company",
+  "publisher": {
+    "@type": "LocalBusiness",
+    "@id": "https://microscopeinternational.com/#localbusiness",
+    "name": "New York Microscope Company",
+    "logo": {
+      "@type": "ImageObject",
+      "@id": "https://microscopeinternational.com/#logo",
+      "url": "https://cdn11.bigcommerce.com/s-65c7m3a4v0/images/stencil/original/nymc-logo_1616619257__83703.original.png",
+      "caption": "New York Microscope Company"
+    },
+	  "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "merchantReturnLink": "https://microscopeinternational.com/return-policy/#returns"
+    },
+    "telephone": "516-801-0313",
+    "email": "info@nyscopes.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "100 Lauman Lane, Ste A",
+      "addressLocality": "Hicksville",
+      "addressRegion": "NY",
+      "postalCode": "11801",
+      "addressCountry": "USA"
+    },
+	  "location": {
+	  "@type": "PostalAddress",
+	  "streetAddress": "100 Lauman Lane, Ste A",
+	  "addressLocality": "Hicksville",
+	  "addressRegion": "NY",
+	  "addressCountry": "USA",
+	  "postalCode": "11801"
+	},
+	"alternateName": [
+      "New York Microscope Co",
+      "NY Microscope Co.",
+      "NY Microscope",
+      "NY Scopes",
+      "NYscopes",
+      "NYMC",
+      "Microscope International",
+      "Mel Sobel Microscopes"
+    ],
+    "sameAs": [
+      "https://www.facebook.com/NewYorkMicroscopeCo/",
+      "https://www.linkedin.com/company/new-york-microscope-company/",
+      "https://www.google.com/maps?cid=18003969417571374199",
+      "https://www.youtube.com/user/nymicroscope",
+      "https://x.com/MicroscopeCo",
+      "https://www.instagram.com/nyscopes/",
+      "https://www.pinterest.com/MicroscopeCo/",
+      "https://www.yelp.com/biz/new-york-microscope-hicksville",
+      "https://www.thomasnet.com/company/new-york-microscope-company-inc-00950627/profile",
+      "https://www.shopperapproved.com/reviews/microscopeinternational.com"
+    ]
+  },
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "target": "https://microscopeinternational.com/search.php?search_query={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    {
+      "@type": "ReadAction",
+      "target": ["https://microscopeinternational.com/"]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://microscopeinternational.com/"
+      }
+    ]
+  }
+}
+</script>
+
 {{/partial}}
 
 {{> layout/base}}
