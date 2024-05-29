@@ -419,6 +419,17 @@ th {
 	border: 1px solid #444;
 }
 
+.brand-image-container {
+
+    @include lazy-loaded-padding("brand_size");
+    max-width: 120px;
+    position: relative;
+
+    img {
+        @include lazy-loaded-img;
+    }
+}
+
 // =============================================================================
 // Mods Override
 // =============================================================================
